@@ -3,6 +3,8 @@ generator client {
 }
 
 datasource db {
+  //Normalmente utilizaria o banco Fauna pois se adapta melhor ao esquema serverless
+  //Mas como o desafio era com um banco relacional Utilizei o Prisma para consumir o Postgres
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }

@@ -6,27 +6,28 @@
 
   display: flex;
   flex-direction: column;
-  width: 18rem;
+  width: 15rem;
   align-items: center;
   justify-content: center;
   text-align: left;
+  margin-top: 3rem;
 
   .container {
     width: 80%;
 
-    h1 {
+    h2 {
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
   }
 
   img {
-    height: 70%;
+    height: 9rem;
     width: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  p, h1 {
+  p, h2 {
     text-align: left;
   }
 }
